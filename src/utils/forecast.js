@@ -17,7 +17,9 @@ const forecast = (lat, long, callback) => {
         "Temperatura : " +
           body.current.temperature +
           ", subjektivni osecaj : " +
-          body.current.feelslike
+          body.current.feelslike +
+          "Vlaznost:" +
+          body.current.humidity
       );
     }
   });
